@@ -1,0 +1,36 @@
+Problem
+A number is said to be square-free if there does not exist any divisor of the number greater than 1 which is a perfect square number.
+
+You are given  integers denoted by array . 
+
+You need to find the size  of the largest subset of these integers such that all integers in the subset are divisible by a common square-free number that is there exists a square-free number  which is a divisor of all the numbers present in the subset. Also, you need to find the number of such square-free numbers for which there exists a subset of size  such that every integer in the subset is divisible by that square-free number.
+
+Note: 1 is not considered square-free.
+
+Input format
+
+The first line contains an integer  denoting the number of test cases.
+The first line of each test case contains an integer .
+The second line of each test case contains  space-separated integers denoting array .
+Output format
+
+For each test case in a new line, print two space-separated integers where the first integer denotes the value of  and the second integer denotes the number of square-free numbers for which there exists a subset of  integers of size  such that every integer in the subset is divisible by that square-free number.
+
+Constraints
+
+
+ 
+
+Sample Input
+1
+2
+6 12
+Sample Output
+2 3
+Time Limit: 6
+Memory Limit: 256
+Source Limit:
+Explanation
+2, 3, 6 are square-free numbers as none of their divisor greater than 1 is a perfect square and all 3 numbers divide 6 and 12.
+Thus, the maximum size subset is 2 and the number of square-free numbers which satisfy the conditions is 3.
+Thus, required answer is 2 3.

@@ -1,0 +1,14 @@
+Problem
+Ma5termind is having his birthday this weekend. Yeah !! You all are invited . Ma5termind wants to send an invitation to those groups of people which he finds interesting. A group of N people is said to be interesting only if the number of their possible circular permutations is divisible by N. Now, Ma5termind got confused as he is having all the groups having number of people belongs to [L,R] (both inclusive). Help him in find the minimum number of invitation cards required and win yourself a chance to attend Ma5termind's birthday party .
+
+[INPUT:]
+
+First line of the input contains a single integer T denoting the number of test cases. First and the only line of each test case consists of two space separated integers L and R denoting the range such that N belongs to [L,R] (both inclusive).
+
+[OUTPUT:]
+
+Output consists of T lines each containing the answer to the corresponding test case denoting the minimum number of invitation cards required by the Ma5termind.
+
+[CONSTRAINTS:]
+
+T<=10^6

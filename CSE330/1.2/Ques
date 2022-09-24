@@ -1,0 +1,23 @@
+Problem
+Consider a permutation of numbers  to  written on a paper. Let’s denote the product of its element as  and the sum of its elements as . Given a positive integer , your task is to determine whether  is divisible by  or not. 
+
+Input Format
+There will be multiple test cases, each input will start with an integer  , number of test cases.
+Each test case will contain an integer  , length of the permutation.
+
+Output Format 
+For each test case, print “YES” if  is divisible by , otherwise print “NO”.
+
+Sample Input
+2
+2
+3
+Sample Output
+NO
+YES
+Time Limit: 2
+Memory Limit: 256
+Source Limit:
+Explanation
+ doesn't divide , but  divides .
+

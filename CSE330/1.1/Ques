@@ -1,0 +1,36 @@
+You are required to distribute  bananas among some people according to the following conditions:
+
+You can select the number of people that receive bananas.
+Each person should get more than one banana.
+One person cannot receive all the bananas.
+All the  bananas must be distributed.
+Each person can only receive an integral number of bananas.
+Write a program to determine whether the bananas can be distributed among the people.
+
+Input format
+
+First line:  denoting the number of test cases
+Next  lines: 
+Output format
+
+For each test case, print  or  depending upon the result.
+
+Constraints
+
+
+
+Sample Input
+2
+2
+4
+Sample Output
+No
+Yes
+Time Limit: 1
+Memory Limit: 256
+Source Limit:
+Explanation
+Explanation of the first test case:
+ bananas cannot be distributed among a group of any size. Suppose a group of size  is considered, then one person takes all the bananas. If a group of size , then each person get only  banana that violates the rule of distribution.
+Explanation of the second test case:
+ bananas can be equally distributed among  people where each person gets  bananas.

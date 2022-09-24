@@ -1,0 +1,27 @@
+Problem
+Misha is given a number . You are required to help Misha determine the summation of the pairwise product of its divisors.
+
+Input format
+
+First line:  denoting the test cases
+Next  lines:  
+Output format
+
+Print the answer for each test case in a separate line.
+Constraints
+
+
+
+Sample Input
+2
+4
+5
+Sample Output
+14
+5
+Time Limit: 5
+Memory Limit: 256
+Source Limit:
+Explanation
+Sample Case 1: 4 has three divisors - . Pairwise summation of divisors will be 
+Sample Case 2: 5 has three divisors -  . Pairwise summation of divisors will be  

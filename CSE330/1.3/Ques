@@ -1,0 +1,24 @@
+Problem
+Given an array, A, of length N. Find the absolute difference between the smallest and largest prime number in array A.
+
+Input:
+First line contains an integer, N, number of points.
+Second line contains N space separated integers, , denoting the elements of the array A.
+
+Output:
+Print the absolute difference between the smallest and largest prime number in array A, otherwise 1.
+
+Constraints:
+
+
+Sample Input
+5
+1 2 3 4 5
+Sample Output
+3
+Time Limit: 1
+Memory Limit: 256
+Source Limit:
+Explanation
+.
+Largest prime is 5 and smallest prime is 2. So the answer will be .

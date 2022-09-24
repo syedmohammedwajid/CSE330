@@ -1,0 +1,60 @@
+Problem
+You have  numbers, . How many ways you can choose 4 numbers such that their product is a perfect cube. Formally, how many ways you can choose 4 integeres  and  such that product of  is a perfect cube.
+
+A number  is said to be a perfect cube if there exists an integer  such that .
+
+Since the numbers can be quite large, so instead of giving a number directly, you will be given   integers, . Formally, each number   is a product of .
+
+Input Format
+
+First line will contain . 
+Each of next  lines will start with . Next  integers   will be sperated by a space.
+
+
+
+
+Ouput Format
+
+Print only one integer, which is many ways you can choose 4 numbers such that their product is a perfect cube.
+
+ 
+
+Addition Information
+
+For 20 points: , , 
+
+For 100 Points: Original constraints.
+
+ 
+
+ 
+
+Sample Input
+6
+2 2 1
+1 3
+3 3 1 1
+2 3 2
+3 3 1 1
+3 2 3 2
+Sample Output
+3
+Time Limit: 2
+Memory Limit: 512
+Source Limit:
+Explanation
+There are 6 numbers.
+
+1st number = 2 x 1 = 2;
+
+2nd number = 3
+
+3rd number = 3 x 1 x 1 = 3
+
+4th number = 3 x 2 = 6
+
+5th number = 3 x 1 x 1 = 3
+
+6th number = 2 x 3 x 2 = 12
+
+So, you can choose {1st, 2nd, 3rd, 6th} and {1st, 2nd, 5th, 6th} and {1st, 3rd, 5th, 6th}. These are the 3

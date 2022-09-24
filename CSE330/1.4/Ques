@@ -1,0 +1,26 @@
+Problem
+There is a major shootout going on in London. Gunmen can be encountered in most of the streets and only a few of them are safe. Sherlock is given the responsibility to ensure the safety of the people by asking them to shift to the nearest safe street.
+There are N streets on the road. The  street is denoted by the number . Gunmen do not enter streets that are denoted by a prime number i.e.  street is safe, if  is a prime.
+
+Help Sherlock find the nearest safe street for people trapped in all the N streets i.e. print N integers, where the  integer is the index (1-based) of the nearest safe street. The distance between cities i and j is given by . For any city j, if there exists no safe city i, such that people of city j can move to city i, print 1 for it.
+
+Note :
+
+-If there are multiple nearest safe streets, print the one with the lower index.
+
+Input:
+
+The first line contains a single integer N denoting the number of cities. The next line contains N integers, where the  integer denotes  .
+
+Output:
+Print the answer on a single line.
+
+Constraints:
+
+
+
+Sample Input
+5
+1 2 3 1 6
+Sample Output
+2 2 3 3 3

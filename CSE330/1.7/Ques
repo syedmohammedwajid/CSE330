@@ -1,0 +1,35 @@
+Problem
+Alfi asked Roy to go for shopping with her. Witty Roy came up with a condition. He said, for each product of MRP (Maximum Retail Price) R, she'll have to pay minimum of all the prime factors of R and he himself will pay rest of the amount. Without giving it a second thought Alfi agreed.
+
+Now they bought N number of products. You're to find how much money did Roy had to pay for each product.
+
+Input:
+
+First line will contain integer N, number of products they bought.
+
+Next N lines each will contain R, MRP of each product.
+
+Output:
+
+Print single integer in a new line, the amount of money Roy had to pay for each product.
+
+Constraints:
+
+2<=N,R<=1000000
+
+Warning: Large I/O. Be careful with certain languages.
+
+Sample Input
+2
+5
+10
+Sample Output
+0
+8
+Time Limit: 1
+Memory Limit: 256
+Source Limit:
+Explanation
+Test Case #1: Only 1 prime factor of 5 is 5 itself, so Alfi will pay all the money and hence Roy has to pay 0.
+
+Test Case #2: Prime Factors of 10 are 2 and 5, minimum of these is 2, so Alfi pays 2 and hence Roy has to pay the rest, which is 8.
