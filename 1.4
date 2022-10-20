@@ -1,0 +1,25 @@
+def abbreviation(a, b):
+    n, m, res = 0, 0, ''
+    tmp, d = [], set()
+    while n < len(a):        
+        if m < len(b):
+            up = a[n].upper()
+            if a[n].isupper():
+                res += a[n]
+                m += 1
+            elif up == b[m]:
+                res += up
+                if (n, m) not in d:
+                    tmp.append((n, m))
+                    d.add((n, m))
+                m += 1
+        else:
+            if a[n].isupper():
+                res += a[n]
+        n += 1
+        if res != b[:m] and tmp:            
+            n = tmp[-1][0] + 1
+            m = tmp[-1][1]
+            res = res[:tmp[-1][1]]
+            tmp.pop()
+    return 'YES' if res == b else 'NO'
